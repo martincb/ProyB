@@ -1,0 +1,146 @@
+body{
+
+	background: url("fondofinal.png") ; 
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  /*  background: url("resours/barraMenu.png");*/
+}
+/*Luego damos formato a las listas no ordenadas dentro de la 
+sección nav con un ancho de 960px y ningún estilo predeterminado.
+*/
+nav ul {
+    margin: 0 auto;
+    width: 960px;
+    list-style: none;
+}
+/*se le indica al navegador cual es el estilo que llevarán los enlaces
+  de las listas no ordenadas dentro de la sección nav
+*/
+nav ul li {
+     float: left;
+}
+nav ul li a {
+	/*background: #0c9ba0;*/
+    display: block;
+    margin-right: 20px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #777;
+}
+nav ul li a:hover {
+     color: #fff;
+
+}
+nav ul li.selected a {
+     color: #fff;
+}
+/*Ocultamos los submenus paraque no se han visibles */
+nav li ul {
+	display: none;
+	position: absolute;
+}
+/*con esto hara los submenus se muestren cuando se pase el a puntador sobre el menu principal*/
+nav li:hover  ul{
+	display: block;
+}
+
+nav>li{
+	float: left;
+}
+
+h1{
+	margin-right: 80px;
+	color: #1E4F8A;
+	/*color: 000055;*/
+	/*font-size: 40px;*/
+	font: 40px Arial;
+	text-align: right;
+}
+#NomSis{
+	margin-left: 80px;
+color: #1E4F8A;
+font: 40px Arial;
+text-align: left;
+
+}
+#CerYCur{
+font: 20px Arial;
+color: #1E4F8A;
+}
+#Anun{
+font: 15px Arial;
+color: #1E4F8A;
+}
+#login-box {
+	width:333px;
+	height: 352px;
+	padding: 58px 76px 0 76px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url("login-box-backg.png")repeat 0 0; /*no-repeat left top;*/
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+
+
+.form-login  {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+footer{
+	color: black;
+	/*color: 000055;*/
+	/*font-size: 40px;*/
+	font: 12px Arial;
+
+}
