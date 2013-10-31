@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Registro_usuario extends CI_Controller {
+class Formulario extends CI_Controller {
 	/**
 	 * Index Page for this controller.
 	 *
@@ -16,16 +16,8 @@ class Registro_usuario extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function form1()
 	{
-          $this->load->view('vista_registro_usuario');
+		$this->load->view('vista_f1'); //cargamos la vista del Alumno
 	}
-        public function operacionesUsu()
-        {
-               
-        }
-	
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

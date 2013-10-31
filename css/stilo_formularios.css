@@ -1,0 +1,198 @@
+       body{
+
+	background: url("fondofinal.png") ; 
+}
+
+
+	   	   
+	   <style>
+        
+        /* Agrega un tipo de fuente a los Labels */
+        
+        body {
+            margin: 30px;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        }
+        
+        
+        /* Estilo a la forma y ademas de ponerle un color degradado */
+        
+        form {
+            width: 35em;
+            margin: 0 auto;
+            padding: 50px 60px;
+            overflow: auto;
+            color: #3e4a49;
+            background-color: #f5eedb;
+            background: -webkit-gradient( linear, left bottom, left top, color-stop(0,#f5eedb), color-stop(1, #faf8f1) );
+            background: -moz-linear-gradient( center bottom, #999999 0%, #FFFFFF 100% );
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+            -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+            -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+        }
+        
+        
+        /* Give form elements consistent margin, padding and line height */
+        
+        form ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         }
+         
+         form ul li {
+         margin: .9em 0 0 0;
+         padding: 0;
+         }
+         
+         form * {
+         line-height: 2em;
+         }*/
+        
+        
+        /* Fielset Contornos */
+        
+         form h1 {
+         margin: 0 0 1.5em 0;
+         padding: 0;
+         text-align: center;
+         }
+        
+        
+        /* Colores y bordes del fieldset */
+        
+        fieldset {
+            padding: 0 20px 20px;
+            margin: 0 0 30px;
+            border: 2px solid #020B0C;
+            background: #FFF;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+        
+        
+        /* Borde Contorneado de legend */
+        
+        legend {
+            color: #FFF;
+            background:  #006dcc;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9em;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+            width: 15em;
+           
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+        
+        
+        /* Acomodando etiquetas y cajas de texto */
+        
+        label {
+            display: block;
+            float: left;
+            clear: left;
+            text-align: right;
+            width: 40%;
+            padding: .4em 0 0 0;
+            margin: .15em .5em 0 0;
+        }
+        
+        
+        /* Tamaño de las cajas de texto */
+        
+        input, select, textarea {
+            display: block;
+            margin: 0;
+            padding: .4em;
+            width: 50%;
+        }
+        /* Sombrear cajas de texto */
+        input, textarea, .date {
+            border: 2px solid #FFFFFF;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            box-shadow: rgba(0,0,0,.5) 1px 1px 1px 1px inset;
+            -moz-box-shadow: rgba(0,0,0,.5) 1px 1px 1px 1px inset;
+            -webkit-box-shadow: rgba(0,0,0,.5) 1px 1px 1px 1px inset;
+            background: #fff;
+        }
+        
+        /* tamaño de fondo de las cajas de texto */
+        
+        input {
+            font-size: .9em;
+        }
+        
+        select {
+            padding: 0;
+            margin-bottom: 2.5em;
+            position: relative;
+            top: .7em;
+        }
+        
+        textarea {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: .9em;
+            height: 5em;
+        }
+        
+        
+        /* Le pone un borde al seleccionar la caja de texto*/
+        
+        form *:focus {
+            border: 2px solid #0D2F86;
+            outline: none;
+            box-shadow: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+        }
+        
+        
+        
+        /* Submit button */
+        
+        input[type="submit"] {
+            margin: 50px auto 0 auto;
+            width: 8em;
+            padding: 8px;
+            border: 1px solid #DDF5FA;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+            -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+            -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8);
+            color: #fff;
+            background: #006dcc;
+            font-size: 1.2em;
+            font-weight: bold;
+            -webkit-appearance: none;
+        }
+        
+        input[type="submit"]:hover, input[type="submit"]:active {
+            cursor: pointer;
+            background: #fff;
+            color: #1A0808;
+        }
+        
+        input[type="submit"]:active {
+            background: #eee;
+            box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+            -moz-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+            -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
+        }
+        
+        
+
+
+
+    </style>

@@ -37,7 +37,7 @@
                      &nbsp;&nbsp;&nbsp;&nbsp;<a href="registro_usuario"><img src="../imagenes/actualizar.png" width="40" height="40"/></a>                 
                    </center> 
                  </fieldset>
-                 <?php
+                  <?php 
                  if(isset($_POST['Nuevo']))
                  {
                     echo "
@@ -54,7 +54,7 @@
                   }
                   if(isset($_POST['Guardar']))
                   {
-                  	         		                  	
+         		                  	
                   } 
                  
                   if(isset($_POST['Buscar'])) 
@@ -69,8 +69,8 @@
                      
                   if(isset($_POST['Eliminar']))
                   {
-             
-				         }	
+                      
+                  }	
                  ?>
                 </form>                   
            </section>

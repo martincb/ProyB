@@ -26,7 +26,6 @@ class Salir extends CI_Controller {
         // redirect('../');
            // $this->load->view('vista_inicio');
           //  redirect('vista_inicio');
-          $this -> load -> helper ( 'url' );
            $this -> load -> helper ( 'url' );
            redirect('../');
                     }

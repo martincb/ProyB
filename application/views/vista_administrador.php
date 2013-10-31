@@ -15,16 +15,17 @@
                   <ul>
                        <li>
                         <a href="registro_usuario"><img src="../imagenes/usuarios.png" width="90" height="35"/></a>
-                        <a href="">Algo</a>
+                        
                       </li>
                   </ul>
               </li> 
               <li>
-                <a href="#"><img src="../imagenes/registro.png" width="90" height="35"/></a>
+                <a href="#"><img src="../imagenes/formulario.png" width="90" height="35"/></a>
                   <ul>
                        <li>
-                        <a href="registro_usuario"><img src="../imagenes/usuarios.png" width="90" height="35"/></a>
-                        <a href="">Algo</a>
+                        <a href="formulario/form1"><img src="../imagenes/formulario1.png" width="90" height="35"/></a>
+                        <a href=""><img src="../imagenes/formulario2.png" width="90" height="35"/></a>
+                        <a href=""><img src="../imagenes/formulario4.png" width="90" height="35"/></a>           
                       </li>
                   </ul>
               </li> 
