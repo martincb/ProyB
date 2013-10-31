@@ -10,7 +10,7 @@
 <body>      
     <header>
 
-          <h1>Universidad Veracruzana</h1>
+          <h1>Universidad Veracruzanaaaa</h1>
           <div id="NomSis">
         <center> Facultad de Estadística e Informática</center>
         </div>
