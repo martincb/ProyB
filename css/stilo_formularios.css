@@ -1,19 +1,4 @@
-       body{
-
-	background: url("fondofinal.png") ; 
-}
-
-
-	   	   
-	   <style>
-        
-        /* Agrega un tipo de fuente a los Labels */
-        
-        body {
-            margin: 30px;
-            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-        }
-        
+       
         
         /* Estilo a la forma y ademas de ponerle un color degradado */
         
@@ -50,7 +35,7 @@
          
          form * {
          line-height: 2em;
-         }*/
+         }
         
         
         /* Fielset Contornos */
@@ -191,8 +176,46 @@
             -webkit-box-shadow: 0 0 .5em rgba(0, 0, 0, .8) inset;
         }
         
-        
+/*--------------------------------------------------------------------------------*/
+             /*        Estilo de los formularios de Maykol      */
 
+#ENCABEZADO {
+  font-family: Times New Roman;
+  font-size: 61px;
+  padding-left: 15px;
+  background-color: #ffc000;
+  width: 1009px;
+  color: #3c13af;
+  padding-top: 40px;
+  height: 110px;
+}
 
+#MENU {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  padding-left: 15px;
+  width: 1009px;
+  background-color: #1240ab;
+  padding-top: 10px;
+  color: #a67d00;
+  height: 30px;
+}
 
-    </style>
+#PIE {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+  height: 15px;
+  background-color: #1240ab;
+  color: #a67d00;
+  width: 1024px;
+}
+
+#CONTENIDO {
+  padding-left: 15px;
+  width: 1009px;
+  padding-top: 30px;
+}
+#CONTENEDOR {
+}

@@ -24,8 +24,10 @@
                   <ul>
                        <li>
                         <a href="formulario/form1"><img src="../imagenes/formulario1.png" width="90" height="35"/></a>
-                        <a href=""><img src="../imagenes/formulario2.png" width="90" height="35"/></a>
-                        <a href=""><img src="../imagenes/formulario4.png" width="90" height="35"/></a>           
+                        <a href="formulario/form2"><img src="../imagenes/formulario2.png" width="90" height="35"/></a>
+                        <a href="formulario/form4"><img src="../imagenes/formulario4.png" width="90" height="35"/></a>
+                        <a href="formulario/form5"><img src="../imagenes/formulario5.png" width="90" height="35"/></a>
+                        <a href="formulario/form6"><img src="../imagenes/formulario6.png" width="90" height="35"/></a>
                       </li>
                   </ul>
               </li> 

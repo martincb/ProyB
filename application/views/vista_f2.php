@@ -1,12 +1,12 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
     <head>
-    <meta charset= "utf-8">
-    <title>F1. Propuesta del Acto Académico</title>
-    <link href="../css/stilo_formularios.css"  media="screen" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title>F-2. Síntesis Curricular</title>
+    <link href="../css/stilo_formularios.css" media="screen" rel="stylesheet" type="text/css" />
     </head>
 
-<body>   
+<body>
 <div class="row">
     <header>
       <div class="clear"></div><!-- clear -->
@@ -20,29 +20,41 @@
     
 <form id="orderForm" action="mainInsert.php" method="post">
 
-<label for="datosGenerales">F1.- PROPUESTA DEL ACTO ACADÉMICO</label><br><br>
-<label for="datosGenerales">I. DATOS GENERALES:</label><br><br>
+<label for="datosGenerales">F-2.- SÍNTESIS CURRICULAR</label><br><br>
         
             <fieldset>
             <ul>
             <li>
-            	<label for="nombreAcademico">Nombre del acto académico:</label>
-                <input type="text" name="nombreAcademico" id="nombreAcademico" class="box_shadow" />
+            	<label for="actoAcademico">ACTO ACADÉMICO:</label>
+                <input type="text" name="actoAcademico" id="actoAcademico" class="box_shadow" />
             </li>
 
             <li>
-			<form action="" method="post" onsubmit="return validate()">
-            <span id="crs">
-            <blockquote> Modalidad: <input type="checkbox" name="cms" value="presencial">Presencial
-            </span>
+                <label for="actoAcademico">ENTIDAD ACADÉMICA:</label>
+                <input type="text" name="actoAcademico" id="actoAcademico" class="box_shadow" /><label for="ciudad">CIUDAD:</label>
+                <input type="text" name="ciudad" id="ciudad" class="box_shadow" />
             </li>
+
+            <label for="fechadeInicio">FECHA DE INICIO:</label>
+                <input type="date" name="fechadeInicio" id="fechadeInicio" class="box_shadow" />
+                <label for="fechadeFinalización">FECHA DE TÉRMINO:</label>
+                <input type="date" name="fechadeFinalizacion" id="fechadeFinalizacion" class="box_shadow" /><label for="duracion">DURACIÓN:</label>
+                <input type="text" name="duracion" id="duracion" class="box_shadow" />
+            </li>
+            
+        </ul>
+        </fieldset>
+        <br>
+        <br>
+        <label for="actoAcademico">I. DATOS PERSONALES:</label>
+        <fieldset>
             
             <li>
 			<form action="" method="post" onsubmit="return validate()">
             <span id="crs">
-            <blockquote> Tipo de acto académico: <input type="checkbox" name="cms" value="curso">Curso
-            <input type="checkbox" name="cms" value="seminario">Seminario
-            <input type="checkbox" name="cms" value="taller">Taller
+            <blockquote> Función: <input type="checkbox" name="cms" value="organizador">Organizador
+            <input type="checkbox" name="cms" value="instructor">Instructor
+            <input type="checkbox" name="cms" value="especialista">Especialista invitado
             
             </span>
             </li>
@@ -357,7 +369,7 @@
                 <textarea name="bibliografia" id="biblio" placeholder="Escriba la bibliografía" maxlength="600"></textarea>
             </li>
 
-            </ul>
+                
             </fieldset>
             <br>
             <br>

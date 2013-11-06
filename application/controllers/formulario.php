@@ -20,4 +20,20 @@ class Formulario extends CI_Controller {
 	{
 		$this->load->view('vista_f1'); //cargamos la vista del Alumno
 	}
+        public function form2()
+	{
+		$this->load->view('vista_f2'); //cargamos la vista del Alumno
+	}
+        public function form4()
+	{
+		$this->load->view('vista_f4'); //cargamos la vista del Alumno
+	}
+        public function form5()
+	{
+		$this->load->view('vista_f5'); //cargamos la vista del Alumno
+	}
+        public function form6()
+	{
+		$this->load->view('vista_f6'); //cargamos la vista del Alumno
+	}
 }
