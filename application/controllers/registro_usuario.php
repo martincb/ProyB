@@ -1,30 +1,43 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Registro_usuario extends CI_Controller {
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -  
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in 
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see http://codeigniter.com/user_guide/general/urls.html
-	 */
+	public function __construct() {
+        parent::__construct();
+       }
 	public function index()
 	{
+        /*  $this->load->model('modelo_usuario');  
+          $data['page_title'] = "Registro Usuarios";
+          $usuarios = $this->modelo_usuario->datosUsuario(); 
+           $data['usuarios'] = $usuarios;*/
           $this->load->view('vista_registro_usuario');
-	}
-        public function operacionesUsu()
-        {
-               
-        }
-	
+	} 
+        public function altas(){
+            //recogemos los datos obtenidos por POST
+            $data['Username'] = $_POST['usuario'];
+            $data['Password'] = $_POST['contrasenia'];
+            $data['Nombre'] = $_POST['nombre'];
+            $data['Paterno'] = $_POST['paterno'];
+            $data['Materno'] = $_POST['materno'];
+            $data['Correo'] = $_POST['correo'];
+            $data['Perfil'] = $_POST['perfil'];
+            //llamamos al modelo, concretamente a la función insert() para que nos haga el insert en la base de datos.
+            $this->load->model('modelo_usuario');
+            $this->modelo_usuario->insert($data);
+            //mostramos la vista
+           $this -> load -> helper ( 'url' );
+            redirect('registro_usuario');  
+        } 
+        function bajas() {
+         //obtenemos el nombre
+          $usuario = $_POST['us'];
+          //cargamos el modelo y llamamos a la función baja(), pasándole el nombre del registro que queremos borrar.
+          $this->load->model('modelo_usuario');
+          $this->modelo_usuario->baja($usuario);
+          //mostramos la vista . 
+          $this -> load -> helper ( 'url' );
+            redirect('registro_usuario');
+ }
 }
 
 /* End of file welcome.php */
