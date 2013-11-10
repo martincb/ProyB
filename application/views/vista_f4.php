@@ -2,7 +2,7 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <title>F-2. Síntesis Curricular</title>
+    <title>F-2. Síntesis Curricular1</title>
     <link href="../css/stilo_formularios.css" media="screen" rel="stylesheet" type="text/css" />
     </head>
 
