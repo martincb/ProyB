@@ -1,6 +1,6 @@
 
 
-<h1>Universidad Veracruzana</h1>
+<h1>Universidad VeracruzanaMaster</h1>
 
 
 
