@@ -18,7 +18,7 @@ class Formulario extends CI_Controller {
 	 */
 	public function form1()
 	{
-		$this->load->view('vista_f1'); //cargamos la vista del Alumno
+		$this->load->view('f1'); //cargamos la vista del Alumno
 	}
         public function form2()
 	{
