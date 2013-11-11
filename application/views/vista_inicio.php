@@ -21,6 +21,7 @@
             <ul>            
               
                <li><a href="../ProyB/index.php/acceso"><img src="imagenes/iniciar.png" width="90" height="35"  align="right"/></a></li>
+                <li><a href="../ProyB/index.php/lugar"><img src="imagenes/lugar.png" width="90" height="35"  align="right"/></a></li>
                <li><a href="../ProyB/index.php/salir/cerrar"><img src="imagenes/salir.png"width="40" height="40"  align="right"/></a></li> 
             </ul>          
           </nav>  
