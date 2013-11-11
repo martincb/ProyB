@@ -18,12 +18,22 @@ class Inicio extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('vista_inicio'); //cargamos la vista inicial
+		//$this->load->view('vista_inicio'); //cargamos la vista inicial
+                $data['contenido'] = 'vista_inicio';
+		$data['titulo'] = 'Inicio';
+		$this->load->view('template', $data);
+                
+    
+	}
+        
+        public function acerca_de()
+	{
+		$this->load->view('acerca_de'); //cargamos la vista inicial
 	}
 	public function inicial()
 	{
                 $this -> load -> helper ( 'url' );
-		redirect('../'); //cargamos la vista inicial
+		redirect('..'); //cargamos la vista inicial
 	}
 }
 

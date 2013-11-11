@@ -1,3 +1,12 @@
+<div class="hero-unit">        
+<h1>Universidad Veracruzana</h1>
+<h2>Facultad de Estadística e Informática</h2></p> 
+<h2>Certificaciones y Cursos FEI</h2>                  
+
+<?= anchor('acceso','Ingresar',array('class' => "btn btn-primary")); ?>
+</div>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="es-Es" xmlns="http://www.w3.org/1999/xhtml">
 <html>
@@ -7,15 +16,7 @@
 	 <title>index</title>
 	
 </head>
-<body>      
-    <header>
-
-          <h1>Universidad Veracruzanaaaa</h1>
-          <div id="NomSis">
-        <center> Facultad de Estadística e Informática</center>
-        </div>
-        <div id="CerYCur">Certificaciones y Cursos FEI</div>        
-     </header>
+<body>         
      <br></br>     
           <nav> 
             <ul>            
