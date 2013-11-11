@@ -19,6 +19,14 @@
             </ul>
           </nav>
      </header>
+    <div id="menu">
+		<ul>
+			<a href="registro_usuario/registro" ><li>Registrar</li></a>
+			<a href="programa.php" ><li>Bajas</li></a>
+			<a href="registro.php"><li>Actualizaciones</li></a>
+			
+		</ul>	
+	</div>
      <br></br>
      <br></br>
           <article>     
@@ -36,7 +44,7 @@
                           </tr>
                  </table> -->
                      
-             <!-- ----------------------------------------------------------------- -->
+             <!-- ----------------------------------------------------------------- 
                 <form id="form_Usuario"method="post" action="../index.php/registro_usuario/altas">   
                    <center>
                     <input name="Nuevo" type="submit" value="Nuevo"width="103" height="42" style="margin-left:50px">
@@ -58,6 +66,7 @@
                        <label for="email"> E-Mail: </label><input type="email" name="correo" id="email" placeholder="micorreo@dominio.com" title="Se necesita un Correo Electrinico" required><p></p>
                        Perfil:<select name="perfil"><option>Administrador</option><option>Maestro</option><option>Alumno</option></select><p></p>   
                    </fieldset> 
+             -->
                  <?php 
                /*  if(isset($_POST['Nuevo']))
                  {

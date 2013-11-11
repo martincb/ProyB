@@ -10,7 +10,7 @@
     </header>
 <nav>
            <ul>             
-             <li>
+            <li>
                 <a href="#"><img src="../imagenes/registro.png" width="90" height="35"/></a>
                   <ul>
                        <li>
@@ -18,7 +18,7 @@
                         
                       </li>
                   </ul>
-              </li> 
+              </li>
               <li>
                 <a href="#"><img src="../imagenes/formulario.png" width="90" height="35"/></a>
                   <ul>
@@ -35,7 +35,8 @@
              <li><a href=""><img src="../imagenes/Alumno.png" width="90" height="35"/></a></li>                                     
            <li><a href="salir/cerrar"><img src="../imagenes/salir.png" width="40" height="40"/></a></li>                                               
 		   </ul>
-        </nav> 
+        </nav>
+         
         <br></br>
         <br></br>
 </body>
