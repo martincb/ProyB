@@ -11,11 +11,15 @@ class Modelo_usuario extends CI_Model {
         parent::__construct();
         $this->load->database();
     }
+    
 
-    function datosUsuario() {
-         $sql = "SELECT perfil,username,Nombre,paterno,materno,correo FROM users"; 
-        return $usuarios=$this->db->query($sql);
-    }
+
+   /* function getData() {
+        /** $sql = "SELECT perfil,username,Nombre,paterno,materno,correo FROM users"; 
+            return $usuarios=$this->db->query($sql);
+         $usuarios = $this->db->get('users'); //obtenemos la tabla 'contacto'. db->get('nombre_tabla') equivale a SELECT * FROM nombre_tabla.
+         return $usuarios->result();
+    }*/
     function insert($data) {
  $this->db->set('username', $data['Username']);
  $this->db->set('password', $data['Password']);

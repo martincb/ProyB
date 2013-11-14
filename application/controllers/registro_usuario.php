@@ -2,15 +2,12 @@
 
 class Registro_usuario extends CI_Controller {
 	public function __construct() {
-        parent::__construct();
+           parent::__construct();
+          
        }
-	public function index()
+	public function index()               
 	{
-        /*  $this->load->model('modelo_usuario');  
-          $data['page_title'] = "Registro Usuarios";
-          $usuarios = $this->modelo_usuario->datosUsuario(); 
-           $data['usuarios'] = $usuarios;*/
-          $this->load->view('vista_registro_usuario');
+        $this->load->view('vista_registro_usuario');
 	} 
         public function registro()
 	{        
@@ -21,8 +18,9 @@ class Registro_usuario extends CI_Controller {
           $this->load->view('vista_eliUsu');
 	}
         public function actualizar()
-	{        
-          $this->load->view('vista_actUsu');
+	{  
+
+          $this->load->view('vista_ediUsu');
 	}
         public function altas(){
             //recogemos los datos obtenidos por POST

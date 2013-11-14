@@ -39,10 +39,16 @@
                             <th>PERFIL</th><th>E-MAIL</th><th> 
                           </tr>
                  </table>-->
+             
              <br></br>
              
-                <form id="form_Usuario"method="post" action="../registro_usuario/altas">   
-                   
+                <form id="form_Usuario"method="post" action="../registro_usuario/">   
+                   <center>                          
+                     <label for="us">Usuario: </label><input type="text" name="us" id="us">  
+                     <input name="Buscar" type="submit" value="Buscar"width="103" height="42" style="margin-left:50px">  
+                     <input name="Actualizar" type="submit" value="Actualizar"width="103" height="42" style="margin-left:50px">    
+                     &nbsp;&nbsp;&nbsp;&nbsp;<a href="registro_usuario"><img src="../../imagenes/actualizar.png" width="40" height="40"/></a>                 
+                 </center> 
                    <fieldset>
                        <legend>Datos personales</legend>
                        <label for="usuario">Usuario:</label><input type="text" name="usuario" id=usuario title="Se necesita un Nombre de Usuario" required><p></p>      
@@ -53,13 +59,6 @@
                        <label for="email"> E-Mail: </label><input type="email" name="correo" id="email" placeholder="micorreo@dominio.com" title="Se necesita un Correo Electrinico" required><p></p>
                        Perfil:<select name="perfil"><option>Administrador</option><option>Maestro</option><option>Alumno</option></select><p></p>   
                    </fieldset> 
-                    <center>
-                     <input name="Guardar" type="submit" value="Guardar"width="103" height="42" style="margin-left:50px">                                 
-                     <input name="Cancelar" type="submit" value="Cancelar"width="103" height="42" style="margin-left:50px">&nbsp;&nbsp;&nbsp;&nbsp;
-                     &nbsp;&nbsp;&nbsp;&nbsp;<a href="registro_usuario"><img src="../../imagenes/actualizar.png" width="40" height="40"/></a>                 
-                 </center> 
-
-                 
                 </form>                   
            </section>
      </article>
@@ -73,3 +72,4 @@ Referencias...
 REFERENCIA http://copypastereference.wordpress.com/2012/03/07/crud-mantenimiento-basico-de-una-tabla-con-codeigniter/ 
 http://www.cristalab.com/tutoriales/validar-formularios-de-forma-nativa-con-html5-c104877l/
 -->
+
