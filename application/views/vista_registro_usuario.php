@@ -22,8 +22,8 @@
     <div id="menu">
 		<ul>
 			<a href="registro_usuario/registro" ><li>Registrar</li></a>
-			<a href="programa.php" ><li>Bajas</li></a>
-			<a href="registro.php"><li>Actualizaciones</li></a>
+			<a href="registro_usuario/eliminar" ><li>Bajas</li></a>
+			<a href="registro_usuario/actualizar"><li>Actualizaciones</li></a>
 			
 		</ul>	
 	</div>

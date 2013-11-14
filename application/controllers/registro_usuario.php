@@ -16,6 +16,14 @@ class Registro_usuario extends CI_Controller {
 	{        
           $this->load->view('vista_regUsu');
 	} 
+        public function eliminar()
+	{        
+          $this->load->view('vista_eliUsu');
+	}
+        public function actualizar()
+	{        
+          $this->load->view('vista_actUsu');
+	}
         public function altas(){
             //recogemos los datos obtenidos por POST
             $data['Username'] = $_POST['usuario'];

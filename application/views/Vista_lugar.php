@@ -20,9 +20,10 @@
           <nav> 
             <ul>            
               
-               <li><a href="../ProyB/index.php/acceso"><img src="../imagenes/iniciar.png" width="90" height="35"  align="right"/></a></li>
-                <li><a href="../ProyB/index.php/acceso"><img src="../imagenes/lugar.png" width="90" height="35"  align="right"/></a></li>
-               <li><a href="../ProyB/index.php/salir/cerrar"><img src="../imagenes/salir.png"width="40" height="40"  align="right"/></a></li> 
+               <li><a href="acceso"><img src="../imagenes/iniciar.png" width="90" height="35"  align="right"/></a></li>
+               <li><a href="inicio/inicial"><img src="../imagenes/home.png"width="90" height="35"  align="right"/></a></li>
+                <li><a href="lugar"><img src="../imagenes/mapa.png" width="60" height="60"  align="right"/></a></li>
+                
             </ul>          
           </nav>  
      <br><br/><br/><br/><br/>
@@ -31,7 +32,7 @@
               
               	<center>
                    	<center>
-<iframe src="https://mapsengine.google.com/map/embed?mid=z1QkgAQ57zr0.kNpkF-bX9cz8" width="640" height="480"></iframe>
+<iframe src="https://mapsengine.google.com/map/embed?mid=z1QkgAQ57zr0.kNpkF-bX9cz8" width="800" height="600"></iframe>
 	</center>
 	</center>
            </section>

@@ -11,18 +11,18 @@
           <h1>Universidad Veracruzana<br/>Bienvenido Administrador</h1>        
           <nav>
             <ul>
-               <li><a href="inicio/inicial"><img src="../../imagenes/home.png" width="90" height="35" ></a></li> 
-               <li><a href="administrador"><img src="../../imagenes/administrador.png" width="90" height="35"></a></li> 
-               <li><a href="salir/cerrar"><img src="../../imagenes/salir.png" width="40" height="40"></a></li>
+               <li><a href="../inicio/inicial"><img src="../../imagenes/home.png" width="90" height="35" ></a></li> 
+               <li><a href="../administrador"><img src="../../imagenes/administrador.png" width="90" height="35"></a></li> 
+               <li><a href="../salir/cerrar"><img src="../../imagenes/salir.png" width="40" height="40"></a></li>
                <li><a href="#"></a></li>                                                                                    
             </ul>
           </nav>
      </header>
     <div id="menu">
 		<ul>
-			<a href="index.php" ><li>Registrar</li></a>
-			<a href="programa.php" ><li>Bajas</li></a>
-			<a href="registro.php"><li>Actualizaciones</li></a>
+			<a href="../registro_usuario/registro" ><li>Registrar</li></a>
+			<a href="../registro_usuario/eliminar" ><li>Bajas</li></a>
+			<a href="../registro_usuario/actualizar"><li>Actualizaciones</li></a>
 			
 		</ul>	
 	</div>
@@ -71,6 +71,7 @@
 </html>
 
 <!--   
+Referencias...
 REFERENCIA http://copypastereference.wordpress.com/2012/03/07/crud-mantenimiento-basico-de-una-tabla-con-codeigniter/ 
 http://www.cristalab.com/tutoriales/validar-formularios-de-forma-nativa-con-html5-c104877l/
 -->
